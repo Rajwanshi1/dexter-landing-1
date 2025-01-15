@@ -26,7 +26,7 @@ const Contacts = () => {
           </p>
           <div className="flex justify-start items-center gap-1">
             <a
-              href="https://t.me/dexter_id"
+              href="https://t.me/+l9Wkg7hvG_liOTc1"
               target="_blank"
               rel="noopener noreferrer"
             >
