@@ -16,7 +16,9 @@ const Contacts = () => {
       </div>
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-12 md:gap-0">
         <p className="text-center md:text-left text-base w-full md:w-1/2 text-black-1000">
-          Have a crazy idea or need a problem solved? Reach out to us!
+          Got a wild idea, stuck on a tricky problem, or just need someone to
+          help you crush DeFi? Don’t worry—I’ve got just the right person to
+          help.
         </p>
         <div className="border border-black-1000 py-3 px-3 flex flex-col items-start justify-start gap-2">
           <p className="text-black-1000 font-medium text-base">

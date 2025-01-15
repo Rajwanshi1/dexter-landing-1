@@ -70,7 +70,7 @@ const Waitlist = () => {
           />
           <input
             className="border border-black-1000 py-2 px-2 outline-none text-sm text-black-1000 bg-transparent w-full"
-            placeholder="Address"
+            placeholder="Wallet address"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
           />
@@ -97,7 +97,7 @@ const Waitlist = () => {
           onChange={(e) => setText(e.target.value)}
         />
         <PrimaryButton onClick={handleSubmit}>
-          <p className="text-sm text-black-1000">Join!</p>
+          <p className="text-sm text-black-1000">Join now!</p>
         </PrimaryButton>
       </div>
     </div>

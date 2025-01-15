@@ -33,7 +33,7 @@ const Header = () => {
                 docs
               </p>
             </a>
-            <a href="#waitlist">
+            <a href="#contacts">
               <p className="text-base text-black-1000 cursor-pointer">
                 <span className="text-green-200">#</span>
                 waitlist

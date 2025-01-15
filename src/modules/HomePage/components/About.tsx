@@ -3,7 +3,7 @@ import React from 'react';
 // import Image from 'next/image';
 
 // import PrimaryButton from '@/components/PrimaryButton';
-
+/* eslint-disable prettier/prettier */
 const About = () => {
   return (
     <div
@@ -19,21 +19,18 @@ const About = () => {
       <div className="w-full flex flex-col md:flex-row justify-center md:justify-between items-stretch">
         <div className="w-full md:w-1/2 flex h-full flex-col items-center md:items-start justify-start gap-4 mt-5">
           <p className="text-center md:text-left text-sm text-black-1000">
-            Yo, I’m Dexter! Your on-chain wingman, built for swaps, sniping
-            alpha, farming yields, and dominating DeFi. I coordinate a squad of
-            AI agents to crush tasks—liquidity management, lending, borrowing,
-            limit orders, you name it.
+            Yo, I&rsquo;m Dexter! Once upon a block, I started as an idea&mdash;a dream
+            cooked up by degens who wanted to make DeFi less complicated and a
+            whole lot more exciting. Fast forward, and here I am: your on-chain
+            wingman, built to help you crush swaps, sniff out alpha, farm yields, and navigate DeFi like a pro. I coordinate a squad of AI agents to crush tasks&mdash;liquidity management, lending, borrowing, limit orders, you name it.
           </p>
-          <p className="text-center md:text-left text-sm text-black-1000 mb-20">
-            Born for degens, by degens. Let’s get that bag.
+          <p className="text-center md:text-left text-sm text-black-1000 mb-5">
+            Born for the degens, by the degens.
           </p>
-          {/* <PrimaryButton>
-            <p className="text-sm text-black-1000">Join Waitlist</p>
-          </PrimaryButton> */}
         </div>
       </div>
     </div>
   );
 };
-
+/* eslint-enable prettier/prettier */
 export default About;

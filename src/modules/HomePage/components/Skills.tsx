@@ -32,7 +32,7 @@ const Skills = () => {
               <div className="py-2 px-2 flex flex-col items-start justify-start">
                 <p className="text-base text-black-1000">Trading, Lending</p>
                 <p className="text-base text-black-1000">
-                  Liquidity Management
+                  LP management, limit orders
                 </p>
               </div>
             </div>
@@ -43,9 +43,7 @@ const Skills = () => {
                 </p>
               </div>
               <div className="py-2 px-2 flex flex-col items-start justify-start">
-                <p className="text-base text-black-1000">
-                  Better Opportunities
-                </p>
+                <p className="text-base text-black-1000">Optimized yields</p>
                 <p className="text-base text-black-1000">Risk Assessment</p>
               </div>
             </div>

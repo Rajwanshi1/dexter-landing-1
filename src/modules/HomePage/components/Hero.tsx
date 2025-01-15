@@ -23,7 +23,7 @@ const Hero = () => {
           DeFi functionality. Hop on the waitlist - DeFi ain’t gonna automate
           itself! 👾
         </p>
-        <a href="#waitlist">
+        <a href="#contacts">
           <PrimaryButton>
             <p className="text-sm text-black-1000">Join Waitlist</p>
           </PrimaryButton>
