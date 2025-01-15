@@ -22,7 +22,7 @@ const Waitlist = () => {
       }
 
       const res = await axios.post(
-        'https://jik0y3u243.execute-api.ap-southeast-1.amazonaws.com/dev/waitlist',
+        'https://yrjdbvo36jfbhvd52prwfuke440kptsv.lambda-url.ap-southeast-1.on.aws/',
         {
           name,
           walletAddress: address,
