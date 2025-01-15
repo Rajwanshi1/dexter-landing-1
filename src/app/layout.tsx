@@ -47,21 +47,27 @@ export default function RootLayout(props: {
   return (
     <html lang={props.params.locale}>
       <head>
-        <title>Dexter - AI Agent</title>
-        <meta name="title" content="Dexter - AI Agent" />
-        <meta name="description" content="AI agent on Sui" />
+        <title>Dexter - DeFAI Agent</title>
+        <meta name="title" content="Dexter - DeFAI Agent" />
+        <meta name="description" content="DeFi aint gonna DeFAI itself!" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://dexterai.xyz/" />
-        <meta property="og:title" content="Dexter - AI Agent" />
-        <meta property="og:description" content="AI agent on Sui" />
-        <meta property="og:image" content="/meta.webp" />
+        <meta property="og:title" content="Dexter - DeFAI Agent" />
+        <meta
+          property="og:description"
+          content="DeFi aint gonna DeFAI itself!"
+        />
+        <meta property="og:image" content="/assets/images/dexter.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://dexterai.xyz/" />
-        <meta name="twitter:title" content="Dexter - AI Agent" />
-        <meta name="twitter:description" content="AI agent on Sui" />
-        <meta name="twitter:image" content="/meta.webp" />
+        <meta name="twitter:title" content="Dexter - DeFAI Agent" />
+        <meta
+          name="twitter:description"
+          content="DeFi aint gonna DeFAI itself!"
+        />
+        <meta name="twitter:image" content="/assets/images/dexter.png" />
       </head>
       <body className={firaCode.className}>
         <ProgressBarProvider>
