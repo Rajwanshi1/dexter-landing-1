@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex justify-start items-center gap-2">
           <Image
             src="/assets/images/logo.png"
-            alt="insiDeX"
+            alt="Dexter"
             width={0}
             height={0}
             sizes="100%"
