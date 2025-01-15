@@ -58,7 +58,10 @@ export default function RootLayout(props: {
           property="og:description"
           content="DeFi aint gonna DeFAI itself!"
         />
-        <meta property="og:image" content="/assets/images/dexter.png" />
+        <meta
+          property="og:image"
+          content="https://dexterai.xyz/assets/images/dexter.png"
+        />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://dexterai.xyz/" />
@@ -67,7 +70,10 @@ export default function RootLayout(props: {
           name="twitter:description"
           content="DeFi aint gonna DeFAI itself!"
         />
-        <meta name="twitter:image" content="/assets/images/dexter.png" />
+        <meta
+          name="twitter:image"
+          content="https://dexterai.xyz/assets/images/dexter.png"
+        />
       </head>
       <body className={firaCode.className}>
         <ProgressBarProvider>
