@@ -20,8 +20,7 @@ const Hero = () => {
         <p className="text-base text-black-900 text-center lg:text-left">
           Execute trades, monitor your portfolio, stay ahead with Web3 Alpha,
           manage LP positions, optimize lending, and unlock no-code full-stack
-          DeFi functionality. Hop on the waitlist - DeFi ain’t gonna automate
-          itself! 👾
+          DeFi functionality. Hop on the waitlist now!
         </p>
         <a href="#contacts">
           <PrimaryButton>

@@ -21,7 +21,7 @@ const Quote = () => {
       />
       <div className="flex justify-center items-center py-3 px-3 border border-black-1000">
         <p className="text-2xl text-black-1000">
-          DeFi doesn’t have to be complicated—just ask me.
+          DeFi ain&rsquo;t gonna DeFAI itself! 👾
         </p>
       </div>
       <div className="flex justify-center items-center pt-4 py-2 px-2 border border-t-0 self-end border-black-1000">
