@@ -1,5 +1,7 @@
 import React from 'react';
 
+// import Image from 'next/image';
+
 import PrimaryButton from '@/components/PrimaryButton';
 
 const About = () => {
@@ -29,21 +31,6 @@ const About = () => {
             <p className="text-sm text-black-1000">Join Waitlist</p>
           </PrimaryButton>
         </div>
-        {/* <Image
-          src="/assets/images/about.png"
-          alt="About"
-          width={0}
-          height={0}
-          sizes="100vw"
-          className="w-full md:w-1/3 h-auto object-contain"
-        /> */}
-        <video
-          src="/assets/images/dexter.mp4"
-          autoPlay
-          loop
-          muted
-          className="w-full md:w-1/3 h-auto object-contain"
-        />
       </div>
     </div>
   );
