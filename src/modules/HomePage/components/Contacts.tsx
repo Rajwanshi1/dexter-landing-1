@@ -16,29 +16,40 @@ const Contacts = () => {
       </div>
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-12 md:gap-0">
         <p className="text-center md:text-left text-base w-full md:w-1/2 text-black-1000">
-          I’m interested in freelance opportunities. However, if you have other
-          request or question, don’t hesitate to contact me
+          Have a crazy idea or need a problem solved? Reach out to us!
         </p>
         <div className="border border-black-1000 py-3 px-3 flex flex-col items-start justify-start gap-2">
           <p className="text-black-1000 font-medium text-base">
             Message my lab assistant
           </p>
           <div className="flex justify-start items-center gap-1">
-            <Image
-              src="/assets/images/telegram.png"
-              width={30}
-              height={30}
-              alt="Telegram"
-            />
+            <a
+              href="https://t.me/dexter_id"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/assets/images/telegram.png"
+                width={30}
+                height={30}
+                alt="Telegram"
+              />
+            </a>
             <p className="text-black-1000 text-sm">@dexter_id</p>
           </div>
           <div className="flex justify-start items-center gap-1">
-            <Image
-              src="/assets/images/twitter.png"
-              width={30}
-              height={30}
-              alt="Telegram"
-            />
+            <a
+              href="https://x.com/move_og"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/assets/images/x_1.png"
+                width={30}
+                height={30}
+                alt="Twitter"
+              />
+            </a>
             <p className="text-black-1000 text-sm">@move_og</p>
           </div>
         </div>

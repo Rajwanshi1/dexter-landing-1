@@ -38,7 +38,7 @@ const Hero = () => {
           sizes="100vw"
           className="w-[500px] h-[500px] object-contain"
         />
-        <div className="border border-black-1000 py-1 px-1 flex justify-start items-center lg:absolute bottom-[-10px] left-[50%] translate-x-[-35%] gap-2">
+        <div className="border border-black-1000 py-1 px-1 flex justify-start items-center absolute bottom-0 left-1/2 transform -translate-x-1/2 gap-2">
           <div className="w-4 h-4 bg-green-200" />
           <p className="text-sm text-black-1000 whitespace-nowrap">
             In the lab 🧪: Crafting the future of no-code DeFi

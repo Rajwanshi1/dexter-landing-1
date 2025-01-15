@@ -2,7 +2,7 @@ import React from 'react';
 
 // import Image from 'next/image';
 
-import PrimaryButton from '@/components/PrimaryButton';
+// import PrimaryButton from '@/components/PrimaryButton';
 
 const About = () => {
   return (
@@ -27,9 +27,9 @@ const About = () => {
           <p className="text-center md:text-left text-sm text-black-1000 mb-20">
             Born for degens, by degens. Let’s get that bag.
           </p>
-          <PrimaryButton>
+          {/* <PrimaryButton>
             <p className="text-sm text-black-1000">Join Waitlist</p>
-          </PrimaryButton>
+          </PrimaryButton> */}
         </div>
       </div>
     </div>

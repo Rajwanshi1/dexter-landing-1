@@ -6,20 +6,32 @@ const Socials = () => {
   return (
     <div className="hidden xl:flex fixed top-0 left-10 flex-col items-center justify-start gap-2">
       <div className="w-px h-[150px] bg-black-1000" />
-      <Image
-        src="/assets/images/twitter.png"
-        alt="Twitter"
-        width={30}
-        height={30}
-        className="cursor-pointer"
-      />
-      <Image
-        src="/assets/images/telegram.png"
-        alt="Telegram"
-        width={30}
-        height={30}
-        className="cursor-pointer"
-      />
+      <a
+        href="https://x.com/dexterOnSui"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/assets/images/x_1.png"
+          alt="Twitter"
+          width={30}
+          height={30}
+          className="cursor-pointer"
+        />
+      </a>
+      <a
+        href="https://t.me/+l9Wkg7hvG_liOTc1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src="/assets/images/telegram.png"
+          alt="Telegram"
+          width={30}
+          height={30}
+          className="cursor-pointer"
+        />
+      </a>
     </div>
   );
 };

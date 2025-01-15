@@ -21,28 +21,28 @@ const Header = () => {
             <p className="text-base font-bold text-black-1000">Dexter</p>
           </div>
           <div className="flex justify-end items-center gap-5">
-            <a href="#home">
+            {/* <a href="#home">
               <p className="text-base text-black-1000 cursor-pointer">
                 <span className="text-green-200">#</span>
                 home
               </p>
-            </a>
-            <a href="#contacts">
+            </a> */}
+            <a href="https://docs.dexterai.xyz" target="_blank">
               <p className="text-base text-black-1000 cursor-pointer">
                 <span className="text-green-200">#</span>
-                contacts
-              </p>
-            </a>
-            <a href="#skills">
-              <p className="text-base text-black-1000 cursor-pointer">
-                <span className="text-green-200">#</span>
-                skills
+                docs
               </p>
             </a>
             <a href="#waitlist">
               <p className="text-base text-black-1000 cursor-pointer">
                 <span className="text-green-200">#</span>
                 waitlist
+              </p>
+            </a>
+            <a href="#contacts">
+              <p className="text-base text-black-1000 cursor-pointer">
+                <span className="text-green-200">#</span>
+                contacts
               </p>
             </a>
           </div>
