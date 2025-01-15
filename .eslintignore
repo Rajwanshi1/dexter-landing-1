@@ -1,0 +1,10 @@
+node_modules
+out
+!.storybook
+*.cy.tsx
+
+public
+
+src/external/bubbleChart.jsx
+src/utils/clmmMath.ts
+src/utils/commonMath.ts
