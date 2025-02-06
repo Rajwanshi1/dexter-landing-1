@@ -26,21 +26,6 @@ const Contacts = () => {
           </p>
           <div className="flex justify-start items-center gap-1">
             <a
-              href="https://t.me/+l9Wkg7hvG_liOTc1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/assets/images/telegram.png"
-                width={30}
-                height={30}
-                alt="Telegram"
-              />
-            </a>
-            <p className="text-black-1000 text-sm">@dexter_id</p>
-          </div>
-          <div className="flex justify-start items-center gap-1">
-            <a
               href="https://x.com/move_og"
               target="_blank"
               rel="noopener noreferrer"

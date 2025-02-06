@@ -20,7 +20,7 @@ const Socials = () => {
         />
       </a>
       <a
-        href="https://t.me/+l9Wkg7hvG_liOTc1"
+        href="https://t.me/dexterAIPortal"
         target="_blank"
         rel="noopener noreferrer"
       >
