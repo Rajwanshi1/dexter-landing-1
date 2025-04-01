@@ -11,28 +11,27 @@ import ProgressBarProvider from '@/components/ProgressBarProvider';
 import Socials from '@/components/Socials';
 
 export const metadata: Metadata = {
-  icons: [
-    {
-      rel: 'apple-touch-icon',
-      url: '/assets/images/dexter-logo.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      url: '/assets/images/dexter-logo.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      url: '/assets/images/dexter-logo.png',
-    },
-    {
-      rel: 'icon',
-      url: '/assets/images/dexter-logo.png',
-    },
-  ],
+  icons: {
+    icon: [
+      {
+        url: '/assets/images/dexter-logo.png',
+        sizes: '32x32',
+        type: 'image/png',
+      },
+      {
+        url: '/assets/images/dexter-logo.png',
+        sizes: '16x16',
+        type: 'image/png',
+      },
+    ],
+    apple: [
+      {
+        url: '/assets/images/dexter-logo.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+  },
 };
 
 const firaCode = Fira_Code({
@@ -47,6 +46,9 @@ export default function RootLayout(props: {
   return (
     <html lang={props.params.locale}>
       <head>
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/dexter-logo.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/dexter-logo.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/dexter-logo.png" />
         <title>Dexter - DeFAI Agent</title>
         <meta name="title" content="Dexter - DeFAI Agent" />
         <meta name="description" content="DeFi aint gonna DeFAI itself!" />
