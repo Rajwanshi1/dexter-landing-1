@@ -27,15 +27,11 @@ const Skills = () => {
           <div className="flex w-full justify-center items-center space-x-3">
             <div className="border border-black-1000 flex flex-col items-center justify-center">
               <div className="border-b border-b-black-1000 py-2 px-2 w-full flex justify-start">
-                <p className="text-base text-green-200">
-                  Liquidity Management
-                </p>
+                <p className="text-base text-green-200">Liquidity Management</p>
               </div>
               <div className="py-2 px-2 flex flex-col items-start justify-start">
                 <p className="text-base text-black-1000">Best yields</p>
-                <p className="text-base text-black-1000">
-                  LP automation
-                </p>
+                <p className="text-base text-black-1000">LP automation</p>
                 <p className="text-base text-black-1000">IL protection</p>
                 <p className="text-base text-black-1000">Custom automations</p>
               </div>
@@ -45,10 +41,12 @@ const Skills = () => {
                 <p className="text-base text-green-200">MLFi vaults</p>
               </div>
               <div className="py-2 px-2 flex flex-col items-start justify-start">
-                <p className="text-base text-black-1000">Dynamic Ranges </p>
+                <p className="text-base text-black-1000">Dynamic Ranges</p>
                 <p className="text-base text-black-1000">AI Rebalancing</p>
                 <p className="text-base text-black-1000">IL Reduction</p>
-                <p className="text-base text-black-1000">Partner - OpenGradient</p>
+                <p className="text-base text-black-1000">
+                  Partner - OpenGradient
+                </p>
               </div>
             </div>
           </div>

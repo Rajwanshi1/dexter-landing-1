@@ -13,9 +13,9 @@ const Header = () => {
             <Image
               src="/assets/images/dexter-logo.png"
               alt="Dexter"
-              width={0}
-              height={0}
-              sizes="100%"
+              width={24}
+              height={24}
+              sizes="24px"
               className="h-6 w-auto"
             />
             <p className="text-lg font-bold text-black-1000">Dexter</p>

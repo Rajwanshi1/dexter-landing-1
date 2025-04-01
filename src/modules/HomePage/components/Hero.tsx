@@ -12,16 +12,18 @@ const Hero = () => {
     >
       <div className="w-full flex flex-col items-center  lg:items-start justify-start gap-3">
         <p className="text-3xl font-semibold text-black-1000 text-center lg:text-left">
-          GM! I'm <span className="text-green-200">Dexter</span>, your{' '}
+          GM! I&apos;m <span className="text-green-200">Dexter</span>, your{' '}
           <span className="text-green-200">
             Liquidity <br className="hidden md:block" /> Manager!
           </span>
         </p>
         <p className="text-base text-black-900 text-center lg:text-left">
-        I move your capital to the highest-yield opportunities, auto-rebalance LPs, 
-        and give 1-click portfolio suggestions.
-        <br />
-        <span className="text-green-200">Trade, Manage</span> and <span className="text-green-200">Optimise liquidity</span> through a simple chat interface.
+          I move your capital to the highest-yield opportunities, auto-rebalance
+          LPs, and give 1-click portfolio suggestions.
+          <br />
+          <span className="text-green-200">Trade, Manage</span> and{' '}
+          <span className="text-green-200">Optimise liquidity</span> through a
+          simple chat interface.
         </p>
         <a href="#contacts">
           <PrimaryButton>
