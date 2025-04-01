@@ -14,23 +14,23 @@ export const metadata: Metadata = {
   icons: [
     {
       rel: 'apple-touch-icon',
-      url: '/apple-touch-icon.png',
+      url: '/assets/images/dexter-logo.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/favicon-32x32.png',
+      url: '/assets/images/dexter-logo.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/favicon-16x16.png',
+      url: '/assets/images/dexter-logo.png',
     },
     {
       rel: 'icon',
-      url: '/favicon.ico',
+      url: '/assets/images/dexter-logo.png',
     },
   ],
 };

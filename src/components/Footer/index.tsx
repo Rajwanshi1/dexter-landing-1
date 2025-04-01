@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="w-full max-w-[1200px] flex flex-col md:flex-row gap-8 md:gap-0 items-center justify-between">
         <div className="flex justify-start items-center gap-2">
           <Image
-            src="/assets/images/logo.png"
+            src="/assets/images/dexter-logo.png"
             alt="Dexter"
             width={0}
             height={0}

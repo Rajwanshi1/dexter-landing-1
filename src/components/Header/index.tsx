@@ -11,22 +11,22 @@ const Header = () => {
         <div className="w-full flex flex-col md:flex-row gap-4 md:gap-0 px-4 xl:px-0 justify-between items-center">
           <div className="flex justify-start items-center gap-2">
             <Image
-              src="/assets/images/logo.png"
+              src="/assets/images/dexter-logo.png"
               alt="Dexter"
               width={0}
               height={0}
               sizes="100%"
-              className="h-5 w-auto"
+              className="h-6 w-auto"
             />
-            <p className="text-base font-bold text-black-1000">Dexter</p>
+            <p className="text-lg font-bold text-black-1000">Dexter</p>
           </div>
           <div className="flex justify-end items-center gap-5">
-            {/* <a href="#home">
+            <a href="https://chat.dexterai.xyz">
               <p className="text-base text-black-1000 cursor-pointer">
                 <span className="text-green-200">#</span>
-                home
+                chat
               </p>
-            </a> */}
+            </a>
             <a href="https://docs.dexterai.xyz" target="_blank">
               <p className="text-base text-black-1000 cursor-pointer">
                 <span className="text-green-200">#</span>
@@ -37,12 +37,6 @@ const Header = () => {
               <p className="text-base text-black-1000 cursor-pointer">
                 <span className="text-green-200">#</span>
                 waitlist
-              </p>
-            </a>
-            <a href="#contacts">
-              <p className="text-base text-black-1000 cursor-pointer">
-                <span className="text-green-200">#</span>
-                contacts
               </p>
             </a>
           </div>
